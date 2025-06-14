@@ -9,6 +9,7 @@ resource "aws_instance" "my-ec2-vm" {
   tags = {
     "Name" = "Terraform-Cloud-${count.index}"
     "Terraform" = true
+    "NewTag" = new
   }
 }
 
