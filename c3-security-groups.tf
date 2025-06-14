@@ -52,7 +52,7 @@ resource "aws_security_group" "vpc-web" {
 # Create Security Group - 8080 Traffic
 resource "aws_security_group" "vpc-8080" {
   name        = "vpc-8080-${terraform.workspace}"
-  description = "Dev VPC 8080"
+  description = "Dev VPC 8080 new"
   ingress {
     description = "Allow Port 8080"
     from_port   = 8080
